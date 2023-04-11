@@ -1,0 +1,21 @@
+.job-details-container {
+    margin: 0 auto;
+    padding: 130px 50px 130px 300px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 24px;
+}
+
+.job-details-title {
+    text-align: center;
+    padding: 100px 200px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('https://img.freepik.com/free-vector/spot-lights-background_52683-43387.jpg');
+
+}
+
+.job-card {
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.1) 0%, rgba(152, 115, 255, 0.1) 100%);
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: -20px;
+}

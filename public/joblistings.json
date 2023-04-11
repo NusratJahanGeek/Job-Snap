@@ -80,7 +80,7 @@
         "jobDescription": "We're seeking a highly skilled data scientist to join our team and help us build cutting-edge data-driven solutions.",
         "jobResponsibility": "Responsibilities include developing predictive models, conducting statistical analyses, and presenting findings to stakeholders.",
         "educationalRequirements": "Master's or PhD in a quantitative field required.",
-        "experiences": "7+ years of experience in data science or related field.",
+        "experience": "7+ years of experience in data science or related field.",
         "companyPhone": "555-555-1234",
         "companyEmail": "jobs@microsoft.com",
         "companyAddress": "One Microsoft Way, Redmond, WA"
@@ -99,7 +99,7 @@
         "jobDescription": "We are seeking a talented Front End Developer to join our team.",
         "jobResponsibility": "Develop and maintain the company's web applications.",
         "educationalRequirements": "Bachelor's degree in Computer Science or related field.",
-        "experiences": "3+ years of experience in web development.",
+        "experience": "3+ years of experience in web development.",
         "companyPhone": "555-123-4567",
         "companyEmail": "info@xyzcorp.com",
         "companyAddress": "123 Main St, San Francisco, CA 94111"
@@ -118,7 +118,7 @@
         "jobDescription": "We're seeking a data analyst to help us make data-driven decisions and improve our user experience.",
         "jobResponsibility": "Responsibilities include analyzing user behavior data, conducting A/B tests, and creating data visualizations.",
         "educationalRequirements": "Bachelor's or Master's degree in a quantitative field required.",
-        "experiences": "2+ years of experience in data analysis or related field.",
+        "experience": "2+ years of experience in data analysis or related field.",
         "companyPhone": "555-555-1234",
         "companyEmail": "jobs@facebook.com",
         "companyAddress": "1 Hacker Way, Menlo Park, CA"

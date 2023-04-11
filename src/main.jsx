@@ -23,6 +23,11 @@ const router = createBrowserRouter([
         loader: () => fetch('joblistings.json')
       },
       {
+        path: 'details/:id',
+        element: <JobDetails></JobDetails>,
+        loader: ({params}) => fetch('/joblistings.json')
+      },
+      {
         path: 'statistics',
         element: <Statistics></Statistics>
       },
@@ -33,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: '/blog',
         element: <Blog></Blog>
+      },
+      {
+        path: '*',
+        element: <div>404 Not Found</div>
       }
     ]
   }

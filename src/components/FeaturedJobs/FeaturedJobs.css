@@ -1,14 +1,15 @@
-.featured-jobs-container{
-    margin: 0 200px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
-   
+.featured-jobs-container {
+  margin: 0 200px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+
 }
+
 .all-jobs-button {
-    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
-    color: #fff;
-    border-radius: 8px;
-    display: block;
+  background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+  color: #fff;
+  border-radius: 8px;
+  display: block;
   margin: 40px auto 0;
 }

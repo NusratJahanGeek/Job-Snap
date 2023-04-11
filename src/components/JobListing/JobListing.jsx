@@ -3,6 +3,7 @@ import './JobListing.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { faSackDollar } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 const JobListing = ({joblisting}) => {
     const {id, companyLogo, companyName, jobTitle, companyLocation, features, salaryRange} = joblisting;
@@ -21,7 +22,7 @@ const JobListing = ({joblisting}) => {
                 <p><FontAwesomeIcon icon={faSackDollar} />  {salaryRange}</p>
                 </div>
             </div>
-           <button className='apply-button'>View Details</button>
+            <Link to={`/details/${id}`}><button className='apply-button'>View Details</button></Link>
         </div>
     );
 };
