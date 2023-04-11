@@ -1,0 +1,23 @@
+nav a {
+    color: #757575;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top-bar-link-items a {
+    margin-right: 40px;
+}
+
+.apply-button {
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    color: #fff;
+    border-radius: 8px;
+}
+
+.apply-button:hover {
+    background:#9873FF;
+}
