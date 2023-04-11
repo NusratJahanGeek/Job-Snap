@@ -1,0 +1,42 @@
+.homepage-style{
+    margin: 40px 50px;
+}
+.hero-section{
+    margin: 0 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.blue-text{
+    color: #7E90FE;
+}
+.icon-color{
+    color: #7E90FE;
+    font-size: 40px;
+    background-color: #f0eff4;
+    padding: 15px;
+    border-radius: 8px;
+}
+.section-title{
+    margin-top: 100px;
+    text-align: center;
+}
+.category-list{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.individual-category-list{
+    background-color: rgb(255, 248, 248);
+    border-radius: 8px;
+    padding: 40px;
+}
+.individual-category-list h4{
+    margin-bottom: 0px;
+}
+.individual-category-list p{
+    margin-top: 0px;
+}
