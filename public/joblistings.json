@@ -1,0 +1,126 @@
+[
+    {
+        "id": 1,
+        "companyLogo": "https://thumbs.dreamstime.com/b/simple-vector-filled-flat-amazon-icon-logo-solid-black-pictogram-isolated-white-background-amazon-logo-159029074.jpg",
+        "companyName": "Amazon",
+        "jobTitle": "Software Development Engineer",
+        "companyLocation": "Seattle, WA",
+        "salaryRange": "$120k - $180k",
+        "features": [
+            "Remote",
+            "Full Time"
+        ],
+        "jobDescription": "As a software development engineer on the Amazon Photos team, you'll have the opportunity to work on customer-facing features used by millions of customers. You'll work with a team of passionate engineers to design and implement high-quality software solutions that solve real-world problems.",
+        "jobResponsibilities": [
+            "Design, implement, and maintain customer-facing features in the Amazon Photos app and website",
+            "Collaborate with product managers, designers, and other engineers to define product requirements and create technical designs",
+            "Write clean, maintainable code that adheres to industry best practices",
+            "Participate in code reviews and help mentor junior engineers"
+        ],
+        "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+        "experience": "3+ years of professional software development experience",
+        "companyPhone": "555-555-1212",
+        "companyEmail": "careers@amazon.com",
+        "companyAddress": "410 Terry Ave N, Seattle, WA 98109"
+    },
+    {
+        "id": 2,
+        "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png",
+        "companyName": "Netflix",
+        "jobTitle": "Senior Software Engineer",
+        "companyLocation": "Los Gatos, CA",
+        "salaryRange": "$150k - $250k",
+        "features": [
+            "Onsite",
+            "Full Time"
+        ],
+        "jobDescription": "Join the team that's changing the way people around the world discover and enjoy streaming entertainment. As a senior software engineer at Netflix, you'll work on critical parts of the technology platform that powers our service, using cutting-edge tools and techniques to solve complex problems at scale.",
+        "jobResponsibilities": [
+            "Design, develop, test, and maintain high-quality software solutions that power the Netflix service",
+            "Collaborate with cross-functional teams to deliver new features and improvements to the platform",
+            "Write clean, efficient, and maintainable code that adheres to industry best practices",
+            "Participate in code reviews and help mentor junior engineers"
+        ],
+        "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+        "experience": "5+ years of professional software development experience",
+        "companyPhone": "555-555-1212",
+        "companyEmail": "careers@netflix.com",
+        "companyAddress": "100 Winchester Cir, Los Gatos, CA 95032"
+    },
+    {
+        "id": 3,
+        "companyLogo": "https://cdn.mos.cms.futurecdn.net/rjqJEKv6P9Yjy9d3KMGvp8.jpg",
+        "companyName": "Google",
+        "jobTitle": "Software Engineer",
+        "companyLocation": "New York, NY",
+        "salaryRange": "$120,000 - $180,000",
+        "features": [
+            "Full Time",
+            "Onsite"
+        ],
+        "jobDescription": "We're looking for a talented software engineer to join our team and help us build the next generation of software products.",
+        "jobResponsibility": "Responsibilities include designing and implementing software features, debugging issues, and collaborating with other teams.",
+        "educationalRequirements": "Bachelor's degree in Computer Science or related field required.",
+        "experience": "5+ years of software engineering experience.",
+        "companyPhone": "555-555-1234",
+        "companyEmail": "jobs@google.com",
+        "companyAddress": "1600 Amphitheatre Parkway, Mountain View, CA"
+    },
+    {
+        "id": 4,
+        "companyLogo": "https://www.freepnglogos.com/uploads/microsoft-logo-4.png",
+        "companyName": "Microsoft",
+        "jobTitle": "Data Scientist",
+        "companyLocation": "Redmond, WA",
+        "salaryRange": "$150,000 - $200,000",
+        "features": [
+            "Full Time",
+            "Remote"
+        ],
+        "jobDescription": "We're seeking a highly skilled data scientist to join our team and help us build cutting-edge data-driven solutions.",
+        "jobResponsibility": "Responsibilities include developing predictive models, conducting statistical analyses, and presenting findings to stakeholders.",
+        "educationalRequirements": "Master's or PhD in a quantitative field required.",
+        "experiences": "7+ years of experience in data science or related field.",
+        "companyPhone": "555-555-1234",
+        "companyEmail": "jobs@microsoft.com",
+        "companyAddress": "One Microsoft Way, Redmond, WA"
+    },
+    {
+        "id": 5,
+        "companyLogo": "https://www.mmaglobal.com/files/styles/member_logo_large/public/logos/xyzcorporatepro.png?itok=ehOUsiQj",
+        "companyName": "XYZ Corp",
+        "jobTitle": "Front End Developer",
+        "companyLocation": "San Francisco, CA",
+        "salaryRange": "$80,000 - $100,000",
+        "features": [
+            "Full Time",
+            "Onsite"
+        ],
+        "jobDescription": "We are seeking a talented Front End Developer to join our team.",
+        "jobResponsibility": "Develop and maintain the company's web applications.",
+        "educationalRequirements": "Bachelor's degree in Computer Science or related field.",
+        "experiences": "3+ years of experience in web development.",
+        "companyPhone": "555-123-4567",
+        "companyEmail": "info@xyzcorp.com",
+        "companyAddress": "123 Main St, San Francisco, CA 94111"
+    },
+    {
+        "id": 6,
+        "companyLogo": "https://www.pngmart.com/files/22/Facebook-PNG-Isolated-HD.png",
+        "companyName": "Facebook",
+        "jobTitle": "Data Analyst",
+        "companyLocation": "Menlo Park, CA",
+        "salaryRange": "$100,000 - $140,000",
+        "features": [
+            "Full Time",
+            "Onsite"
+        ],
+        "jobDescription": "We're seeking a data analyst to help us make data-driven decisions and improve our user experience.",
+        "jobResponsibility": "Responsibilities include analyzing user behavior data, conducting A/B tests, and creating data visualizations.",
+        "educationalRequirements": "Bachelor's or Master's degree in a quantitative field required.",
+        "experiences": "2+ years of experience in data analysis or related field.",
+        "companyPhone": "555-555-1234",
+        "companyEmail": "jobs@facebook.com",
+        "companyAddress": "1 Hacker Way, Menlo Park, CA"
+    }
+]
