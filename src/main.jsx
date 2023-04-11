@@ -12,6 +12,7 @@ import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 import Statistics from './components/Statistics/Statistics';
 import Blog from './components/Blog/Blog';
 import totalAppliedJobsData from './components/loaders/getAppliedJobData';
+import Error from './components/Error/Error';
 
 const router = createBrowserRouter([
   {
@@ -50,7 +51,7 @@ const router = createBrowserRouter([
       },
       {
         path: '*',
-        element: <div>404 Not Found</div>
+        element: <Error></Error>
       }
     ]
   }
