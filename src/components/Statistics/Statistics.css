@@ -1,0 +1,11 @@
+.statistics-title{
+    margin-top: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.statistics-title h2{
+    margin-top: 40px;
+}
