@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import JobListing from '../JobListing/JobListing';
 import './FeaturedJobs.css'
 
 const FeaturedJobs = () => {
     const joblistings = useLoaderData();
+    const [showAll, setShowAll] = useState(false);
+
+    const handleShowAll = () => {
+        setShowAll(true);
+    }
     return (
         <div className='homepage-style'>
             <div className='section-title'>
@@ -14,13 +19,15 @@ const FeaturedJobs = () => {
 
             <div className="featured-jobs-container">
             {
-                joblistings.map(joblisting => <JobListing
+                joblistings.slice(0, showAll ? 6 : 4).map(joblisting => <JobListing
                     key={joblisting.id}
                     joblisting={joblisting}
                 ></JobListing>)
             }
             </div>
-            <button className='all-jobs-button'>See All Jobs</button>
+            {
+                !showAll && (<button onClick={handleShowAll}className='all-jobs-button'>See All Jobs</button>)
+            }
         </div>
     );
 };

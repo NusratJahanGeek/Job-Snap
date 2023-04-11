@@ -1,12 +1,12 @@
 .job-details-container {
     margin: 0 auto;
-    padding: 130px 50px 130px 300px;
+    padding: 130px 50px 130px 220px;
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 24px;
 }
 
-.job-details-title {
+.job-title {
     text-align: center;
     padding: 100px 200px;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('https://img.freepik.com/free-vector/spot-lights-background_52683-43387.jpg');

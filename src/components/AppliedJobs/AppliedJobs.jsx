@@ -3,7 +3,9 @@ import React from 'react';
 const AppliedJobs = () => {
     return (
         <div>
-            <h2>Applied Jobs</h2>
+            <div className="job-title">
+                <h2>Applied Jobs</h2>
+            </div>
         </div>
     );
 };
