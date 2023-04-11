@@ -7,20 +7,26 @@ import { faCalendar } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faMailBulk } from '@fortawesome/free-solid-svg-icons';
 import { faAddressBook } from '@fortawesome/free-solid-svg-icons';
+import { addToDb } from '../../utilities/fakeDB';
 
 const JobDetails = () => {
     const detailedJobData = useLoaderData();
-    //console.log(detailedJobData);
+  
     const { id } = useParams({});
-    //console.log(id);
+  
     const [job, setJob] = useState({});
     useEffect(() => {
         const jobData = detailedJobData.find(job => job.id == id);
         setJob(jobData);
     }, [])
-    //console.log(job);
+    
 
     const { jobDescription, jobResponsibility, educationalRequirements, experience, jobTitle, companyAddress, salaryRange, companyPhone, companyEmail } = job;
+
+    //Apply To Job Button Functionality
+    const handleApplyNow = id =>{
+        addToDb(id);
+    }
 
     return (
         <div>
@@ -47,7 +53,7 @@ const JobDetails = () => {
                         <p><FontAwesomeIcon icon={faMailBulk} />  <strong>Email:</strong> {companyEmail}</p>
                         <p><FontAwesomeIcon icon={faAddressBook} />  <strong>Address:</strong> {companyAddress}</p>
                     </div>
-                    <button className='all-jobs-button'>Apply Now</button>
+                    <button onClick={() => handleApplyNow(id)} className='all-jobs-button'>Apply Now</button>
                 </div>
             </div>
 

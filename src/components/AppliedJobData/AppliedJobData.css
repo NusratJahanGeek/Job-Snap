@@ -1,0 +1,28 @@
+.applied-job-data-container{
+    margin: 24px 300px;
+    border: 1px solid rgba(156, 156, 156, 0.25);
+    border-radius: 8px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr; 
+    column-gap: 32px;
+    row-gap: 0;
+    align-items: center;
+
+}
+.applied-job-data-container img {
+    height: 100px;
+    width: 150px;
+    background-color: #F4F4F4;
+    padding: 40px 20px;
+    border-radius: 8px;
+}
+.applied-job-data-container p{
+    margin-top: 0;
+}
+.applied-job-data-container h4{
+    margin-bottom: 8px;
+}
+.applied-jobs-container h2{
+    text-align: center;
+}

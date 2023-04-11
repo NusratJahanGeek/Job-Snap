@@ -11,6 +11,7 @@ import JobDetails from './components/JobDetails/JobDetails';
 import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 import Statistics from './components/Statistics/Statistics';
 import Blog from './components/Blog/Blog';
+import totalAppliedJobsData from './components/loaders/getAppliedJobData';
 
 const router = createBrowserRouter([
   {
@@ -33,7 +34,15 @@ const router = createBrowserRouter([
       },
       {
         path: 'applied',
-        element: <AppliedJobs></AppliedJobs>
+        element: <AppliedJobs></AppliedJobs>,
+        loader: async () => {
+          try {
+            return await totalAppliedJobsData();
+          } catch (error) {
+            console.error(error);
+            return null;
+          }
+        },
       },
       {
         path: '/blog',
