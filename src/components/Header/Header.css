@@ -21,6 +21,10 @@ nav a {
   .apply-button:hover {
     background: #9873FF;
   }
+
+  .active{
+    color: #9873FF;
+  }
   
   /* Media queries for mobile responsiveness */
   

@@ -14,6 +14,7 @@ import Blog from './components/Blog/Blog';
 import totalAppliedJobsData from './components/loaders/getAppliedJobData';
 import Error from './components/Error/Error';
 
+
 const router = createBrowserRouter([
   {
     path: '/',

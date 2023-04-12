@@ -8,6 +8,9 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faMailBulk } from '@fortawesome/free-solid-svg-icons';
 import { faAddressBook } from '@fortawesome/free-solid-svg-icons';
 import { addToDb } from '../../utilities/fakeDB';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
 
 const JobDetails = () => {
     const detailedJobData = useLoaderData();
@@ -26,6 +29,7 @@ const JobDetails = () => {
     //Apply To Job Button Functionality
     const handleApplyNow = id =>{
         addToDb(id);
+        toast.success('You have successfully applied to the job!');
     }
 
     return (
@@ -35,6 +39,7 @@ const JobDetails = () => {
             </div>
             <div className='job-details-container'>
                 <div className="job-details">
+                <ToastContainer />
                     <p><strong>Job Description:</strong> {jobDescription}</p>
                     <p><strong>Job Responsibility:</strong> {jobResponsibility}</p>
                     <p><strong>Educational Requirements:</strong><br /><br /> {educationalRequirements}</p>

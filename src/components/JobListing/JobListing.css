@@ -9,7 +9,15 @@
     width: 150px;
 }
 
-.feature-style{
+.joblisting-container h4 {
+    margin-bottom: 0;
+}
+
+.joblisting-container .apply-button {
+    font-size: 12px;
+}
+
+.feature-style {
     border: 1px solid #7E90FE;
     border-radius: 4px;
     color: #9873FF;
@@ -17,23 +25,21 @@
     margin-right: 10px;
 }
 
-.location-salary-container{
+.location-salary-container {
     display: flex;
     gap: 24px;
 }
 
-.joblisting-container .apply-button{
-    font-size: 12px;
-}
 
 @media only screen and (max-width: 767px) {
-    
-    
+
+
     .joblisting-container img {
-    height: auto;
-    width: 100%;
+        height: auto;
+        width: 100%;
     }
-    .joblisting-container .apply-button{
+
+    .joblisting-container .apply-button {
         display: block;
     }
-    }
+}

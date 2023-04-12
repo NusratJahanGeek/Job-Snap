@@ -13,7 +13,7 @@ const FeaturedJobs = () => {
     return (
         <div className='homepage-style'>
             <div className='section-title'>
-                <h2>Featured Jobs</h2>
+                <h2 id="featured-jobs">Featured Jobs</h2>
                 <p>Explore thousands of job opportunities with all the information you need. Its your future.</p>
             </div>
 

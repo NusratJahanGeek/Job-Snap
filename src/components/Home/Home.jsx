@@ -17,7 +17,8 @@ const Home = () => {
                         One Step Closer To Your <span className='blue-text'>Dream Job</span>
                     </h1>
                     <p>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
-                    <button className='apply-button'>Get Started</button>
+                    <a href='#featured-jobs'>
+                    <button className='apply-button'>Get Started</button></a>
                 </div>
                 <div>
                     <img src="https://img.freepik.com/free-photo/modern-stylish-muslim-woman-hijab-business-style-jacket-black-abaya-walking-city-street-with-laptop_285396-9497.jpg" alt="" />
