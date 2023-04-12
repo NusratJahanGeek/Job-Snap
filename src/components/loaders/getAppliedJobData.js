@@ -2,7 +2,7 @@ import { getAppliedJob } from "../../utilities/fakeDB";
 
 const totalAppliedJobsData = async () => {
   try {
-    const jobData = await fetch('joblistings.json');
+    const jobData = await fetch('/joblistings.json');
     const jobs = await jobData.json();
 
     const appliedAlready = getAppliedJob();
@@ -22,6 +22,7 @@ const totalAppliedJobsData = async () => {
   } catch (error) {
     console.error(error);
   }
+  return totalAppliedJobsData;
 }
 
 export default totalAppliedJobsData;
