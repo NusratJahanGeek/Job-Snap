@@ -1,23 +1,45 @@
 nav a {
     color: #757575;
-}
-
-.top-bar {
+  }
+  
+  .top-bar {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-.top-bar-link-items a {
+  }
+  
+  .top-bar-link-items a {
     margin-right: 40px;
-}
-
-.apply-button {
+  }
+  
+  .apply-button {
     background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
     color: #fff;
     border-radius: 8px;
+  }
+  
+  .apply-button:hover {
+    background: #9873FF;
+  }
+  
+  /* Media queries for mobile responsiveness */
+  
+  @media only screen and (max-width: 767px) {
+    .top-bar {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .top-bar h2{
+        margin-bottom: 10px;
+    }
+  
+    .top-bar-link-items a {
+      margin-right: 20px;
+   
+  }
+  .apply-button {
+    margin: 10px 0;
 }
-
-.apply-button:hover {
-    background:#9873FF;
-}
+  }

@@ -1,7 +1,8 @@
-.homepage-style{
+.homepage-style {
     margin: 40px 50px;
 }
-.hero-section{
+
+.hero-section {
     margin: 0 100px;
     display: flex;
     flex-direction: row;
@@ -9,34 +10,66 @@
     align-items: center;
     gap: 70px;
 }
-.blue-text{
+
+.blue-text {
     color: #7E90FE;
 }
-.icon-color{
+
+.icon-color {
     color: #7E90FE;
     font-size: 40px;
     background-color: #f0eff4;
     padding: 15px;
     border-radius: 8px;
 }
-.section-title{
+
+.section-title {
     margin-top: 100px;
     text-align: center;
 }
-.category-list{
+
+.category-list {
     display: flex;
     gap: 25px;
     align-items: center;
     justify-content: center;
 }
-.individual-category-list{
+
+.individual-category-list {
     background-color: rgb(255, 248, 248);
     border-radius: 8px;
     padding: 40px;
 }
-.individual-category-list h4{
+
+.individual-category-list h4 {
     margin-bottom: 0px;
 }
-.individual-category-list p{
+
+.individual-category-list p {
     margin-top: 0px;
+}
+
+@media only screen and (max-width: 767px) {
+    .homepage-style {
+        margin: 20px;
+    }
+    .hero-section {
+        margin: 0 20px;
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+    .section-title {
+        margin-top: 60px;
+    }
+
+    .category-list {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .individual-category-list {
+        text-align: center;
+        padding: 20px;
+    }
 }

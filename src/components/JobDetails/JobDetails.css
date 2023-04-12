@@ -19,3 +19,24 @@
     padding: 30px;
     margin-bottom: -20px;
 }
+
+@media only screen and (max-width: 767px) {
+    .job-details-container {
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .job-title {
+        padding: 60px 10px;
+        background-size: contain;
+        background-position: center;
+        text-align: center;
+    }
+
+    .job-card {
+        padding: 20px;
+        margin-bottom: 0;
+    }
+}

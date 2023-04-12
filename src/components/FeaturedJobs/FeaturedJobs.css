@@ -13,3 +13,20 @@
   display: block;
   margin: 40px auto 0;
 }
+
+/* Mobile responsiveness for featured-jobs-container */
+@media only screen and (max-width: 767px) {
+  .featured-jobs-container {
+    margin: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
+/* Mobile responsiveness for all-jobs-button */
+@media only screen and (max-width: 767px) {
+  .all-jobs-button {
+    margin: 20px auto 0;
+  }
+}

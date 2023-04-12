@@ -4,3 +4,11 @@
     border-radius: 8px;
     padding: 20px;
 }
+
+@media only screen and (max-width: 768px) {
+    /* adjust the margin for screens smaller than 768px wide */
+    .blog-data-container {
+        width: 75%;
+        margin: 20px auto;
+    }
+  }

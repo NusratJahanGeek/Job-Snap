@@ -9,3 +9,13 @@
 .statistics-title h2{
     margin-top: 40px;
 }
+
+@media screen and (max-width: 768px) {
+  .statistics-title {
+    margin-top: 40px;
+  }
+  
+  .statistics-title h2 {
+    margin-top: 20px;
+  }
+}
