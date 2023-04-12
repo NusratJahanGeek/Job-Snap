@@ -12,7 +12,9 @@ const Header = () => {
           <NavLink to="/applied" activeClassName="active">Applied Jobs</NavLink>
           <NavLink to="/blog" activeClassName="active">Blog</NavLink>
         </div>
-        <button className='apply-button'>Start Applying</button>
+        <a href='/#featured-jobs'>
+          <button className='apply-button'>Start Applying</button></a>
+
       </div>
     </nav>
   );
